@@ -1,38 +1,80 @@
 .App {
   text-align: center;
+  background-image: url('https://www.red13studios.com/wp-content/uploads/2018/04/yoga-meditation-widescreen-high-resolution-wallpaper-for-desktop-background-download-yoga-images-free.jpg');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.homepage{
+  background-image: url('https://www.red13studios.com/wp-content/uploads/2018/04/yoga-meditation-widescreen-high-resolution-wallpaper-for-desktop-background-download-yoga-images-free.jpg');
+}
+.h1, h1 {
+  font-size: 4.5rem;
+  margin-bottom: -0.5rem
+}
+.card-columns .card {
+  
+  display: inline-flex;
+  
+}
+.row > .card-columns {
+  width: 100%
+}
+.form-label {
+  font-size: 2rem;
+}
+.card-img {
+  border-style: solid;
+}
+#postureName {
+  font-size: 1.3rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#flowContainer {
+  background-color: rgb(135,206,250, .5)
+}
+#diary{
+  position: initial;
+  max-width: 50%;
+  text-align: right;
+}
+.bg-white{
+  background-color: #d2d2d2
+}
+#mainTitle {
+  font-size: 4.5rem;
+}
+.signUpLink {
+  font-size:0.9rem
+
   }
+  #diaryEntry {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  .text-muted{
+    font-size:0.9rem
+  }
+#breathAlert{
+  font-size: .7rem;
+  background-color: rgb(250,250,210);
+  border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+div.card, .card {
+  margin: 3rem;
+  padding: 1rem;
+  border-radius: 1.0rem;
+  background-color: rgba(0, 191, 255, 0.53);
+  font-size: 0.6rem
 }
+
+
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
