@@ -52,7 +52,8 @@ import { Container, Card, Form, Button } from 'react-bootstrap';
                 </Form>
                     <Card>
                     <Card.Body style={{fontSize:'2rem'}}>"I need more down dog in my life"</Card.Body>
-                </Card>
+                    <Button variant="warning" type="delete"></Button>
+                    </Card>
                 </>
             )
         }
